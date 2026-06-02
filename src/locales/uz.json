@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "title": "Rus tilini oson o'rganing",
+    "subtitle": "Maxsus darslik · 30 mavzu · A2 daraja",
+    "cta": "Telegram orqali xarid qilish"
+  },
+  "features": {
+    "title": "Nega aynan StartRus?",
+    "items": [
+      {"title": "O'zbek tiliga tarjima", "desc": "Barcha qoidalar o'zbek tilida tushuntirilgan"},
+      {"title": "Oddiy grammatika", "desc": "Murakkab qoidalar oson tillarda"},
+      {"title": "Jonli dialoglar", "desc": "Hayotiy vaziyatlar uchun dialoglar"},
+      {"title": "Amaliy mashqlar", "desc": "O'rganganlarni mustahkamlash uchun"},
+      {"title": "Qiziqarli o'yinlar", "desc": "Zerikmasdan o'rganish usullari"},
+      {"title": "Grammatika ma'lumotnomasi", "desc": "Barcha kerakli qoidalar bitta joyda"}
+    ]
+  },
+  "howItWorks": {
+    "title": "Bu qanday ishlaydi?",
+    "steps": [
+      {"title": "Kitobni oling", "desc": "Telegram botimiz orqali buyurtma bering"},
+      {"title": "Mavzuni o'qing", "desc": "O'zbek tilidagi tushuntirishlarni o'qing"},
+      {"title": "Mashqlarni bajaring", "desc": "Yangi so'z va qoidalarni ishlating"},
+      {"title": "Natijaga erishing", "desc": "Rus tilida erkin gapirishni boshlang"}
+    ]
+  },
+  "gallery": {
+    "title": "Kitob sahifalaridan namunalar"
+  },
+  "audience": {
+    "title": "Bu kitob kimlar uchun?",
+    "items": [
+      {"title": "Talabalar", "desc": "O'qishda va kundalik hayotda erkin muloqot qilish uchun"},
+      {"title": "Ishchilar", "desc": "Karyerada o'sish va yaxshi ish topish uchun"},
+      {"title": "Sayohat qiluvchilar", "desc": "Rossiya va MDH davlatlarida oson muloqot qilish uchun"}
+    ]
+  },
+  "pricing": {
+    "title": "Eng yaxshi sarmoya",
+    "cta": "Telegram orqali xarid qilish"
+  },
+  "faq": {
+    "title": "Ko'p beriladigan savollar",
+    "items": [
+      {
+        "q": "Kitob qanday formatda?",
+        "a": "PDF — elektron kitob. Xarid qilgandan so'ng darhol olasiz."
+      },
+      {
+        "q": "Qaysi daraja?",
+        "a": "A2 — boshlang'ich. Alifbo va oddiy iboralarni biladiganlar uchun."
+      },
+      {
+        "q": "O'zbekcha tushuntirishlar bormi?",
+        "a": "Ha! Kitobdagi barcha qoida va mavzular aralash — ham rus, ham o'zbek tillarida tushuntirilgan."
+      },
+      {
+        "q": "Boshqa darajalar bo'ladimi?",
+        "a": "Ha, B1, B2 va undan yuqori kitoblar rejalashtirilgan."
+      },
+      {
+        "q": "Qanday sotib olish mumkin?",
+        "a": "Saytdagi tugmalar orqali Telegram-botimizga o'ting va u yerda xaridni rasmiylashtirishingiz mumkin."
+      }
+    ]
+  },
+  "courses": {
+    "title": "Kurslarga yozilish",
+    "desc": "Rus tilini o'qituvchi bilan o'rganishni xohlaysizmi? Interaktiv kurslarimizga ariza qoldiring.",
+    "cta": "Telegram orqali yozilish"
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan."
+  }
+}
