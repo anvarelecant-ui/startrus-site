@@ -1,29 +1,25 @@
-
+import React from 'react'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
-import { Features } from './components/Features'
-import { HowItWorks } from './components/HowItWorks'
-import { Gallery } from './components/Gallery'
-import { TargetAudience } from './components/TargetAudience'
-import { Pricing } from './components/Pricing'
-import { Courses } from './components/Courses'
+import { Teacher } from './components/Teacher'
+import { Advantages } from './components/Advantages'
+import { Methodology } from './components/Methodology'
+import { Programs } from './components/Programs'
+import { CTA } from './components/CTA'
 import { FAQ } from './components/FAQ'
 import { Footer } from './components/Footer'
-import StarScene from './components/3d/StarScene'
 
 function App() {
   return (
-    <div className="min-h-screen bg-transparent relative">
-      <StarScene />
+    <div className="min-h-screen bg-[#090D16] text-slate-100 relative selection:bg-blue-600 selection:text-white">
       <Navbar />
       <main>
         <Hero />
-        <Features />
-        <HowItWorks />
-        <Gallery />
-        <TargetAudience />
-        <Pricing />
-        <Courses />
+        <Teacher />
+        <Advantages />
+        <Methodology />
+        <Programs />
+        <CTA />
         <FAQ />
       </main>
       <Footer />

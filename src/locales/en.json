@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "about": "About Tutor",
+    "advantages": "Advantages",
+    "methodology": "Methodology",
+    "programs": "Programs",
+    "faq": "FAQ",
+    "contact": "Contact on Telegram"
+  },
+  "hero": {
+    "badge": "✦ 1-on-1 Russian Language Tutoring",
+    "title_start": "Master Fluent & Natural Russian",
+    "title_highlight": "with Private 1-on-1 Lessons",
+    "title_end": "tailored to your goals",
+    "desc": "Personalized language coaching with instructor Ulday Abdibaeva. No rigid group constraints: 70% immersive speaking practice, conversational ease, and proven progress.",
+    "cta_primary": "Book a Consultation (Telegram)",
+    "cta_secondary": "Explore Programs",
+    "stat1_value": "5+ yrs",
+    "stat1_label": "Teaching experience",
+    "stat2_value": "100%",
+    "stat2_label": "Dedicated focus",
+    "stat3_value": "3",
+    "stat3_label": "Top educational centers"
+  },
+  "teacher": {
+    "badge": "Certified Instructor",
+    "name": "Ulday Abdibaeva",
+    "title": "Russian Language Specialist & Private Tutor",
+    "bio_p1": "For over 5 years, helping learners conquer language barriers, gain conversational confidence, and express thoughts articulately in Russian.",
+    "bio_p2": "Brings comprehensive pedagogy developed across prestigious learning centers in Uzbekistan. Lessons prioritize natural interactive dialogues and practical communication over dry rote grammar.",
+    "centers_title": "Teaching background at top learning centers:",
+    "centers": [
+      {
+        "name": "«Hong Kong» Learning Center",
+        "role": "Russian Language Instructor",
+        "desc": "Conversational intensives and core grammar mastery"
+      },
+      {
+        "name": "«Success Academy»",
+        "role": "Senior Language Specialist",
+        "desc": "Communicative programs for adults and college students"
+      },
+      {
+        "name": "«Fitrat» Learning Center",
+        "role": "Active Tutor",
+        "desc": "Tailored curriculum and advanced linguistic coaching"
+      }
+    ],
+    "quote": "«My primary goal is to empower each student to speak Russian naturally, free from hesitation, enjoying every conversation with genuine confidence.»"
+  },
+  "advantages": {
+    "badge": "Why 1-on-1?",
+    "title": "The Power of Private Tutoring",
+    "subtitle": "In standard groups, students rarely speak more than 5-10 minutes per class. In 1-on-1 coaching, 100% of the session is dedicated to you.",
+    "items": [
+      {
+        "title": "100% Tutor Attention",
+        "desc": "Immediate clarification on every question and gentle, real-time error correction as you speak."
+      },
+      {
+        "title": "Customized to Your Targets",
+        "desc": "Focused vocabulary directly aligned with your priorities: business, relocation, studies, or daily life."
+      },
+      {
+        "title": "Flexible Timetable",
+        "desc": "Coordinate lesson times smoothly around your professional schedule and personal routine."
+      },
+      {
+        "title": "Comfortable & Encouraging Space",
+        "desc": "No pressure or fear of making mistakes in front of peers — your conversational barrier dissolves naturally."
+      }
+    ]
+  },
+  "methodology": {
+    "badge": "Proven Method",
+    "title": "How Do Lessons Work?",
+    "subtitle": "A results-oriented communicative approach designed for real-world fluency",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Initial Assessment & Goals",
+        "desc": "We evaluate your current proficiency and outline a customized milestone-driven curriculum."
+      },
+      {
+        "number": "02",
+        "title": "70% Active Speaking",
+        "desc": "Dynamic dialogue simulations, discussion of real-world scenarios, and spontaneous speech practice."
+      },
+      {
+        "number": "03",
+        "title": "Logical, Intuitive Grammar",
+        "desc": "Complex grammatical concepts simplified through practical, intuitive real-life examples."
+      },
+      {
+        "number": "04",
+        "title": "Continuous Telegram Mentorship",
+        "desc": "Voice note checks, homework reviews, and ongoing support between your scheduled sessions."
+      }
+    ]
+  },
+  "programs": {
+    "badge": "Learning Tracks",
+    "title": "Choose Your Learning Pathway",
+    "subtitle": "Every track is personalized to match your initial level and target objectives.",
+    "items": [
+      {
+        "level": "A0 — A1",
+        "title": "Russian from Scratch",
+        "desc": "Alphabet, phonetics, essential 1,000-word core vocabulary, and first everyday conversations.",
+        "features": [
+          "Pronunciation & articulation basics",
+          "Essential survival phrases",
+          "Foundational grammar framework",
+          "Confidence from day one"
+        ]
+      },
+      {
+        "level": "A2 — B1",
+        "title": "Conversational Fluency & Confidence",
+        "desc": "Overcoming the barrier of understanding but struggling to speak. Developing fluid expression.",
+        "popular": true,
+        "features": [
+          "Spontaneous speech training",
+          "Double your active vocabulary",
+          "Thinking directly in Russian",
+          "Engaging dialogues on modern topics"
+        ]
+      },
+      {
+        "level": "B2",
+        "title": "Russian for Career & Business",
+        "desc": "Corporate etiquette, professional email correspondence, interview preparation, and presentations.",
+        "features": [
+          "Business vocabulary & manners",
+          "Job interview preparation",
+          "Official documents & writing",
+          "Negotiation & presentation skills"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Enrollment Open",
+    "title": "Start Speaking Russian Confidently Today",
+    "desc": "Due to dedicated 1-on-1 scheduling, available student slots are limited. Contact us directly on Telegram to select your preferred hours.",
+    "button": "Message on Telegram (@callmeanv)",
+    "price_info": "💡 Pricing, schedule, and custom study plans are arranged personally in chat."
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title": "Got Questions? We Have Answers",
+    "items": [
+      {
+        "q": "What is the lesson format?",
+        "a": "All lessons are strictly 1-on-1. You receive the tutor's undivided attention and personalized guidance."
+      },
+      {
+        "q": "How is the schedule arranged?",
+        "a": "The timetable is customized around your work or study hours and tutor availability."
+      },
+      {
+        "q": "What are the rates and tuition fees?",
+        "a": "Pricing depends on frequency and intensity. You can receive full pricing details directly on Telegram (@callmeanv)."
+      },
+      {
+        "q": "Can complete beginners join?",
+        "a": "Absolutely! We have a structured beginner track that explains fundamentals clearly from zero."
+      },
+      {
+        "q": "What happens in the initial consultation?",
+        "a": "We assess your current vocabulary, identify main hurdles, and recommend the best roadmap for your goals."
+      }
+    ]
+  },
+  "footer": {
+    "desc": "StartRus — 1-on-1 Russian language tutoring with Ulday Abdibaeva. 5+ years of experience, proven methods from top learning centers, and guaranteed results.",
+    "rights": "All rights reserved.",
+    "contact_label": "Connect:"
+  }
+}

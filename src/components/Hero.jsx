@@ -1,60 +1,178 @@
-
+import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { motion } from 'framer-motion'
-import { Send } from 'lucide-react'
-import { Button } from './ui/Button'
+import { Send, ArrowRight, CheckCircle, Award, Sparkles, UserCheck, ShieldCheck } from 'lucide-react'
 
 export function Hero() {
   const { t } = useTranslation()
+  const telegramLink = "https://t.me/callmeanv"
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      
-      {/* Texture Overlay */}
-      <div className="noise-overlay opacity-30 mix-blend-overlay"></div>
+    <section className="relative min-h-screen pt-32 pb-20 overflow-hidden flex items-center bg-grid-pattern">
+      {/* Ambient background glows */}
+      <div className="glow-subtle w-96 h-96 bg-blue-600 top-10 left-1/4" />
+      <div className="glow-subtle w-96 h-96 bg-indigo-500 top-40 right-10" />
 
-      {/* Content Overlay */}
-      <div className="container mx-auto px-4 z-10 relative pointer-events-none">
-        <div className="max-w-3xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className="glass-dark p-8 md:p-12 rounded-[2.5rem] inline-block pointer-events-auto shadow-[0_0_80px_rgba(38,198,218,0.1)] border-white/10"
-          >
-            <motion.div
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ delay: 0.3, duration: 0.5 }}
-              className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-[var(--color-accent)] to-[#ff5252] text-white mb-6 shadow-xl shadow-red-500/30"
-            >
-              <span className="text-4xl">✦</span>
-            </motion.div>
-            
-            <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight tracking-tight drop-shadow-lg">
-              <span className="text-gradient block">{t('hero.title')}</span>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          {/* Left Column: Heading & CTAs */}
+          <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+            {/* Pill Badge */}
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-400 text-xs sm:text-sm font-semibold">
+              <Sparkles className="w-4 h-4 text-blue-400" />
+              <span>{t('hero.badge')}</span>
+            </div>
+
+            {/* Main Title */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
+              {t('hero.title_start')}{' '}
+              <span className="gradient-text block sm:inline">
+                {t('hero.title_highlight')}
+              </span>{' '}
+              {t('hero.title_end')}
             </h1>
-            
-            <p className="text-xl md:text-2xl text-white/80 mb-10 font-medium">
-              {t('hero.subtitle')}
+
+            {/* Subtitle */}
+            <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+              {t('hero.desc')}
             </p>
-            
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="inline-block"
-            >
-              <Button 
-                size="lg" 
-                className="text-xl px-10 py-6 rounded-full bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary)] hover:opacity-90 border-none shadow-[0_0_30px_rgba(38,198,218,0.4)]"
-                onClick={() => window.open('https://t.me/StartRus_Bot', '_blank')}
+
+            {/* CTA Buttons */}
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <a
+                href={telegramLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-base px-7 py-4 rounded-full shadow-xl shadow-blue-600/30 hover:shadow-blue-600/50 hover:scale-[1.02] transition-all"
               >
-                <Send className="w-6 h-6 mr-3" />
-                {t('hero.cta')}
-              </Button>
-            </motion.div>
-            
-          </motion.div>
+                <Send className="w-5 h-5" />
+                <span>{t('hero.cta_primary')}</span>
+              </a>
+
+              <a
+                href="#programs"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-slate-200 hover:text-white bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-base font-semibold px-6 py-4 rounded-full transition-all"
+              >
+                <span>{t('hero.cta_secondary')}</span>
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </div>
+
+            {/* Trust Markers / Stats */}
+            <div className="pt-8 border-t border-slate-800/80 grid grid-cols-3 gap-4 max-w-lg mx-auto lg:mx-0">
+              <div className="space-y-1">
+                <div className="text-2xl sm:text-3xl font-extrabold text-white">
+                  {t('hero.stat1_value')}
+                </div>
+                <div className="text-xs text-slate-400 font-medium">
+                  {t('hero.stat1_label')}
+                </div>
+              </div>
+
+              <div className="space-y-1 border-x border-slate-800 px-3">
+                <div className="text-2xl sm:text-3xl font-extrabold text-blue-400">
+                  {t('hero.stat2_value')}
+                </div>
+                <div className="text-xs text-slate-400 font-medium">
+                  {t('hero.stat2_label')}
+                </div>
+              </div>
+
+              <div className="space-y-1">
+                <div className="text-2xl sm:text-3xl font-extrabold text-amber-400">
+                  {t('hero.stat3_value')}
+                </div>
+                <div className="text-xs text-slate-400 font-medium">
+                  {t('hero.stat3_label')}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column: Teacher Showcase Badge Card */}
+          <div className="lg:col-span-5 flex justify-center">
+            <div className="w-full max-w-md glass-card rounded-3xl p-6 sm:p-8 relative">
+              {/* Floating Status Badge */}
+              <div className="flex items-center justify-between pb-6 border-b border-slate-700/60">
+                <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-xs font-semibold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  Qabul ochiq · 1-ga-1
+                </div>
+                <div className="text-xs text-slate-400 font-medium flex items-center gap-1">
+                  <ShieldCheck className="w-4 h-4 text-blue-400" />
+                  Kafolatlangan metodika
+                </div>
+              </div>
+
+              {/* Teacher Identity Presentation (No photo - Elegant Monogram / Academic Emblem) */}
+              <div className="py-6 flex flex-col items-center text-center">
+                <div className="relative mb-4">
+                  <div className="w-24 h-24 rounded-2xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 flex items-center justify-center text-white text-3xl font-black shadow-xl shadow-blue-500/20 ring-4 ring-blue-500/30">
+                    UA
+                  </div>
+                  <div className="absolute -bottom-2 -right-2 bg-amber-500 text-slate-950 p-1.5 rounded-lg shadow-md">
+                    <Award className="w-4 h-4" />
+                  </div>
+                </div>
+
+                <h2 className="text-2xl font-bold text-white tracking-tight">
+                  Ulday Abdibaeva
+                </h2>
+                <p className="text-sm text-blue-400 font-medium mt-1">
+                  Rus tili bo'yicha professional repetitor
+                </p>
+                <div className="flex items-center gap-1 mt-2 text-xs text-slate-400">
+                  <UserCheck className="w-3.5 h-3.5 text-slate-400" />
+                  <span>5 yillik muvaffaqiyatli pedagogik tajriba</span>
+                </div>
+              </div>
+
+              {/* Verified Experience Centers */}
+              <div className="space-y-2.5 pt-2 border-t border-slate-700/60">
+                <div className="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">
+                  Tajriba markazlari:
+                </div>
+                
+                <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                    <span className="text-sm font-semibold text-slate-200">«Hong Kong» o'quv markazi</span>
+                  </div>
+                  <span className="text-[11px] text-slate-400">O'zbekiston</span>
+                </div>
+
+                <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                    <span className="text-sm font-semibold text-slate-200">«Success Academy»</span>
+                  </div>
+                  <span className="text-[11px] text-slate-400">Intensiv</span>
+                </div>
+
+                <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span className="text-sm font-semibold text-slate-200">«Fitrat» o'quv markazi</span>
+                  </div>
+                  <span className="text-[11px] text-emerald-400 font-medium">Faoliyatda</span>
+                </div>
+              </div>
+
+              {/* Direct Link button */}
+              <div className="pt-6">
+                <a
+                  href={telegramLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-2 bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/40 text-blue-300 hover:text-white py-3 rounded-xl text-sm font-semibold transition-all"
+                >
+                  <Send className="w-4 h-4" />
+                  <span>Ustoz bilan Telegramda bog'lanish</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

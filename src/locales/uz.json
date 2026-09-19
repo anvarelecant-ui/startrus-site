@@ -1,75 +1,180 @@
 {
+  "nav": {
+    "about": "O'qituvchi",
+    "advantages": "Afzalliklar",
+    "methodology": "Metodika",
+    "programs": "Dasturlar",
+    "faq": "Savollar",
+    "contact": "Telegramda yozish"
+  },
   "hero": {
-    "title": "Rus tilini oson o'rganing",
-    "subtitle": "Maxsus darslik · 30 mavzu · A2 daraja",
-    "cta": "Telegram orqali xarid qilish"
+    "badge": "✦ Rus tili individual ta'lim",
+    "title_start": "Rus tilida erkin va to'g'ri so'zlashishni",
+    "title_highlight": "1-ga-1 individual darslarda",
+    "title_end": "o'rganing",
+    "desc": "O'qituvchi Ulday Abdibaeva bilan shaxsiy dastur bo'yicha ta'lim. Qoliplardan xoli, 70% jonli so'zlashuv amaliyoti va tezkor natija.",
+    "cta_primary": "Darsga yozilish (Telegram)",
+    "cta_secondary": "Dastur bilan tanishish",
+    "stat1_value": "5+ yil",
+    "stat1_label": "Pedagogik tajriba",
+    "stat2_value": "100%",
+    "stat2_label": "Individual e'tibor",
+    "stat3_value": "3 ta",
+    "stat3_label": "Yetakchi o'quv markazlari"
   },
-  "features": {
-    "title": "Nega aynan StartRus?",
+  "teacher": {
+    "badge": "Malakali ustoz",
+    "name": "Ulday Abdibaeva",
+    "title": "Rus tili bo'yicha professional repetitor va murabbiy",
+    "bio_p1": "5 yildan ortiq vaqt davomida yuzlab o'quvchilarga til to'sig'ini yengishga, rus tilida erkin fikrlash va to'g'ri so'zlashishga yordam berib kelmoqda.",
+    "bio_p2": "O'zbekistondagi nufuzli ta'lim markazlarida chuqur pedagogik tajriba to'plagan. Darslar zerikarli qoidalarni yodlashga emas, balki jonli muloqot va amaliy ko'nikmalarga asoslangan.",
+    "centers_title": "Faoliyat yuritgan yetakchi o'quv markazlari:",
+    "centers": [
+      {
+        "name": "«Hong Kong» o'quv markazi",
+        "role": "Rus tili o'qituvchisi",
+        "desc": "So'zlashuv intensivlari va intensiv grammatika kurslari"
+      },
+      {
+        "name": "«Success Academy»",
+        "role": "Rus tili yetakchi mutaxassisi",
+        "desc": "Kattalar va talabalar uchun kommunikativ dasturlar"
+      },
+      {
+        "name": "«Fitrat» o'quv markazi",
+        "role": "Amaldagi o'qituvchi",
+        "desc": "Individual va chuqurlashtirilgan til o'qitish metodikasi"
+      }
+    ],
+    "quote": "«Mening asosiy maqsadim — har bir o'quvchimga rus tilida qo'rquvsiz, erkin va o'z ona tilidek tabiiy so'zlashish ishonchini berishdir.»"
+  },
+  "advantages": {
+    "badge": "Nega aynan 1-ga-1?",
+    "title": "Individual ta'limning mutlaq ustunliklari",
+    "subtitle": "Katta guruhlarda o'quvchiga atigi 5-10 daqiqa vaqt ajratiladi. Individual darsda esa butun diqqat faqat sizga qaratiladi.",
     "items": [
-      {"title": "O'zbek tiliga tarjima", "desc": "Barcha qoidalar o'zbek tilida tushuntirilgan"},
-      {"title": "Oddiy grammatika", "desc": "Murakkab qoidalar oson tillarda"},
-      {"title": "Jonli dialoglar", "desc": "Hayotiy vaziyatlar uchun dialoglar"},
-      {"title": "Amaliy mashqlar", "desc": "O'rganganlarni mustahkamlash uchun"},
-      {"title": "Qiziqarli o'yinlar", "desc": "Zerikmasdan o'rganish usullari"},
-      {"title": "Grammatika ma'lumotnomasi", "desc": "Barcha kerakli qoidalar bitta joyda"}
-    ]
-  },
-  "howItWorks": {
-    "title": "Bu qanday ishlaydi?",
-    "steps": [
-      {"title": "Kitobni oling", "desc": "Telegram botimiz orqali buyurtma bering"},
-      {"title": "Mavzuni o'qing", "desc": "O'zbek tilidagi tushuntirishlarni o'qing"},
-      {"title": "Mashqlarni bajaring", "desc": "Yangi so'z va qoidalarni ishlating"},
-      {"title": "Natijaga erishing", "desc": "Rus tilida erkin gapirishni boshlang"}
-    ]
-  },
-  "gallery": {
-    "title": "Kitob sahifalaridan namunalar"
-  },
-  "audience": {
-    "title": "Bu kitob kimlar uchun?",
-    "items": [
-      {"title": "Talabalar", "desc": "O'qishda va kundalik hayotda erkin muloqot qilish uchun"},
-      {"title": "Ishchilar", "desc": "Karyerada o'sish va yaxshi ish topish uchun"},
-      {"title": "Sayohat qiluvchilar", "desc": "Rossiya va MDH davlatlarida oson muloqot qilish uchun"}
-    ]
-  },
-  "pricing": {
-    "title": "Eng yaxshi sarmoya",
-    "cta": "Telegram orqali xarid qilish"
-  },
-  "faq": {
-    "title": "Ko'p beriladigan savollar",
-    "items": [
       {
-        "q": "Kitob qanday formatda?",
-        "a": "PDF — elektron kitob. Xarid qilgandan so'ng darhol olasiz."
+        "title": "100% o'qituvchi e'tibori",
+        "desc": "Barcha savollaringizga darsning o'zidayoq batafsil javob olasiz, xatolar ustida darhol va samimiy ishlanadi."
       },
       {
-        "q": "Qaysi daraja?",
-        "a": "A2 — boshlang'ich. Alifbo va oddiy iboralarni biladiganlar uchun."
+        "title": "Sizning maqsadingizga mos dastur",
+        "desc": "Keraksiz mavzularsiz: ish, biznes, sayohat, o'qish yoki kundalik muloqot uchun kerakli leksika."
       },
       {
-        "q": "O'zbekcha tushuntirishlar bormi?",
-        "a": "Ha! Kitobdagi barcha qoida va mavzular aralash — ham rus, ham o'zbek tillarida tushuntirilgan."
+        "title": "Moslashuvchan dars jadvali",
+        "desc": "Dars vaqtlarini o'zingizning ish yoki o'qish rejangizga qarab eng qulay vaqtga belgilash imkoniyati."
       },
       {
-        "q": "Boshqa darajalar bo'ladimi?",
-        "a": "Ha, B1, B2 va undan yuqori kitoblar rejalashtirilgan."
-      },
-      {
-        "q": "Qanday sotib olish mumkin?",
-        "a": "Saytdagi tugmalar orqali Telegram-botimizga o'ting va u yerda xaridni rasmiylashtirishingiz mumkin."
+        "title": "Qulay va xavfsiz psixologik muhit",
+        "desc": "Boshqalar oldida xato qilishdan qo'rqmaysiz — til to'sig'i dastlabki haftalardanoq butunlay yo'qoladi."
       }
     ]
   },
-  "courses": {
-    "title": "Kurslarga yozilish",
-    "desc": "Rus tilini o'qituvchi bilan o'rganishni xohlaysizmi? Interaktiv kurslarimizga ariza qoldiring.",
-    "cta": "Telegram orqali yozilish"
+  "methodology": {
+    "badge": "Samarali metodika",
+    "title": "Darslar qanday tartibda o'tiladi?",
+    "subtitle": "Natijadorlikka qaratilgan zamonaviy kommunikativ yondashuv",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Darajani aniqlash va tahlil",
+        "desc": "Sizning joriy bilimingiz va aniq maqsadlaringiz tahlil qilinib, shaxsiy o'quv rejasi shakllantiriladi."
+      },
+      {
+        "number": "02",
+        "title": "70% jonli so'zlashuv amaliyoti",
+        "desc": "Har bir darsda hayotiy vaziyatlar, real dialoglar va qiziqarli mavzular faol muhokama qilinadi."
+      },
+      {
+        "number": "03",
+        "title": "Sodda va mantiqiy grammatika",
+        "desc": "Murakkab qoidalar o'zbek tilidagi qiyosiy misollar bilan juda oson va tushunarli qilib beriladi."
+      },
+      {
+        "number": "04",
+        "title": "Doimiy qo'llab-quvvatlash",
+        "desc": "Darsdan tashqari vaqtda ham audio-xabarlar, uy vazifalari nazorati va Telegram orqali maslahatlar."
+      }
+    ]
+  },
+  "programs": {
+    "badge": "Yo'nalishlar",
+    "title": "Mos keluvchi ta'lim dasturingizni tanlang",
+    "subtitle": "Har bir dastur sizning joriy darajangiz va erishmoqchi bo'lgan maqsadingizga qarab individual moslashtiriladi.",
+    "items": [
+      {
+        "level": "A0 — A1",
+        "title": "Rus tili noldan",
+        "desc": "Alifbo, to'g'ri talaffuz, eng zarur 1000 ta so'z va oddiy iboralarda erkin fikr bildirish.",
+        "features": [
+          "To'g'ri artikulyatsiya va talaffuz",
+          "Boshlang'ich hayotiy dialoglar",
+          "Kundalik leksik baza",
+          "O'zbekcha qiyosiy tushuntirish"
+        ]
+      },
+      {
+        "level": "A2 — B1",
+        "title": "So'zlashuv va til to'sig'ini yengish",
+        "desc": "«Tushunaman, lekin gapira olmayman» holatidan chiqish. Ravon va erkin muloqot.",
+        "popular": true,
+        "features": [
+          "Spontan nutq amaliyoti",
+          "Lug'at boyligini 2 barobarga oshirish",
+          "Ruscha fikrlash ko'nikmasi",
+          "Murakkab dialoglar va munozaralar"
+        ]
+      },
+      {
+        "level": "B2",
+        "title": "Ish va karyera uchun rus tili",
+        "desc": "Ishbilarmonlik etiketi, rasmiy xat yozish, intervyu va muzokaralarni muvaffaqiyatli olib borish.",
+        "features": [
+          "Biznes muloqot va etiket",
+          "Suhbat (intervyu)ga tayyorgarlik",
+          "Rasmiy hujjatlar bilan ishlash",
+          "Taqdimotlar va muzokaralar o'tkazish"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Qabul ochiq",
+    "title": "Rus tilida erkin so'zlashishni bugunoq boshlang",
+    "desc": "Har bir o'quvchiga 100% individual vaqt ajratilgani sababli, qabul o'rinlari soni chegaralangan. O'zingizga qulay dars vaqtini band qilish uchun hoziroq Telegram orqali yozing.",
+    "button": "Telegram orqali yozish (@callmeanv)",
+    "price_info": "💡 Darslar narxi, qulay grafik va dastur shaxsiy suhbatda kelishiladi."
+  },
+  "faq": {
+    "badge": "Ko'p beriladigan savollar",
+    "title": "Savollaringiz bormi? Javob beramiz",
+    "items": [
+      {
+        "q": "Darslar qanday formatda o'tkaziladi?",
+        "a": "Darslar to'liq 1-ga-1 individual tarzda o'tkaziladi. O'quvchi va o'qituvchi o'rtasida to'liq aloqa bo'ladi, hech qanday katta guruhlar yo'q."
+      },
+      {
+        "q": "Dars jadvalini qanday tanlaymiz?",
+        "a": "Jadval sizning bo'sh vaqtingiz va o'qituvchining dars soatlariga qarab shaxsan kelishiladi. Ish yoki o'qishdan keyingi qulay vaqtlarni tanlash mumkin."
+      },
+      {
+        "q": "Darslar narxi qancha?",
+        "a": "Narxlar sizning tanlagan intensivligingiz va darslar soniga qarab belgilanadi. Aniq narx va to'lov shartlarini bilish uchun Telegram (@callmeanv) orqali yozishingiz mumkin."
+      },
+      {
+        "q": "O'zbek tilida tushuntirish beriladimi?",
+        "a": "Albatta! O'qituvchi Ulday Abdibaeva o'quvchining tushunishiga qarab qoidalarni o'zbek tilida aniq va sodda taqqoslashlar bilan tushuntirib beradi."
+      },
+      {
+        "q": "Birinchi darsda nima bo'ladi?",
+        "a": "Dastlabki muloqotda sizning darajangiz bepul tekshiriladi, maqsadlaringiz aniqlanadi va siz uchun mos dars dasturi taqdim etiladi."
+      }
+    ]
   },
   "footer": {
-    "rights": "Barcha huquqlar himoyalangan."
+    "desc": "StartRus — Ulday Abdibaeva bilan individual rus tili ta'limi. 5 yillik tajriba, yetakchi ta'lim markazlari metodikasi va 100% kafolatlangan natija.",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "contact_label": "Bog'lanish:"
   }
 }
