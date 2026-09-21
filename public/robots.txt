@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /favicon.ico
+Allow: /favicon.svg
+Allow: /apple-touch-icon.png
+Allow: /og-image.png
+
+Sitemap: https://startrus.uz/sitemap.xml

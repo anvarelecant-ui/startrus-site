@@ -1,0 +1,21 @@
+{
+  "name": "StartRus — Rus tili individual darslar",
+  "short_name": "StartRus",
+  "description": "Rus tilida erkin so'zlashishni 1-ga-1 individual darslarda o'rganing. Toshkentda rus tili repetitor.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B101B",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
